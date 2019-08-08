@@ -1,6 +1,6 @@
 import 'dart:math';
 
-import 'package:flutter/material.dart';
+import 'package:flutter_web/material.dart';
 
 import '../utils/items.dart';
 import 'package:vector_math/vector_math_64.dart';

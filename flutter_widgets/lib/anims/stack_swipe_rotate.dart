@@ -1,5 +1,5 @@
-import 'package:flutter/material.dart';
-import 'package:flutter/scheduler.dart';
+import 'package:flutter_web/material.dart';
+import 'package:flutter_web/scheduler.dart';
 import '../utils/items.dart';
 import 'card.dart';
 //Reference only

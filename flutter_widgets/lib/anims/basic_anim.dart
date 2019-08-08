@@ -1,6 +1,6 @@
 import 'dart:math';
 
-import 'package:flutter/material.dart';
+import 'package:flutter_web/material.dart';
 
 class BasicAnimationControllerDemo extends StatefulWidget {
   @override

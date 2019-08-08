@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+import 'package:flutter_web/material.dart';
 
 final Color myRed = Color.fromRGBO(245, 102, 66, 1);
 final Color myGreen = Color.fromRGBO(32, 138, 18, 1);

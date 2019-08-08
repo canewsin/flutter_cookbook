@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+import 'package:flutter_web/material.dart';
 import '../utils/items.dart';
 
 class ColorTweenAnimationDemo extends StatefulWidget {
@@ -68,12 +68,13 @@ class _ColorTweenAnimationDemoState extends State<ColorTweenAnimationDemo>
                       Container(
                         width: screenSize.width / 1.2,
                         height: screenSize.height / 2.2,
-                        decoration: BoxDecoration(
-                            borderRadius: BorderRadius.only(
-                              topLeft: Radius.circular(8.0),
-                              topRight: Radius.circular(8.0),
-                            ),
-                            image: decorationImage),
+                        child: Image.network(cardItems[0].image),
+//                        decoration: BoxDecoration(
+//                            borderRadius: BorderRadius.only(
+//                              topLeft: Radius.circular(8.0),
+//                              topRight: Radius.circular(8.0),
+//                            ),
+//                            image: decorationImage),
                       ),
                       Container(
                         width: screenSize.width / 1.2,
